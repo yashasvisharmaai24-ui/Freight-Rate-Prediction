@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.joblib
+.pytest_cache/
+.vscode/
+
+# Assessment source datasets - do not publish
+train_test.csv
+validation.csv
+validation_predictions_template.csv
+december_chart_inputs.csv
+data/train_test.csv
+data/validation.csv
+data/validation_predictions_template.csv
+!data/december_chart_inputs.csv
